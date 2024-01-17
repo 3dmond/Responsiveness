@@ -1,2 +1,2 @@
 Responsiveness using SCSS
-![Alt Text](images/Web_Preview.png)
+![web preview](images/Web_Preview.png)
