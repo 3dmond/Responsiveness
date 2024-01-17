@@ -1,0 +1,52 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  background: linear-gradient(to bottom, #fee6d3, #626a6c);
+  background-image: url("Images/background_photo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 0.5fr 80% 1fr;
+  background-color: blue;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body {
+  display: grid;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 60%;
+  margin: auto;
+  gap: 10px;
+  justify-items: center;
+}
+
+#explore_icon {
+  width: 20px;
+  height: 20px;
+}
+
+#image_two {
+  justify-self: start;
+  grid-row: span 2;
+  align-self: center;
+}
+
+/*# sourceMappingURL=index.css.map */

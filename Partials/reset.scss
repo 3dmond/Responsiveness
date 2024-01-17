@@ -1,0 +1,139 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background: linear-gradient(to bottom, #fee6d3, #626a6c);
+    background-image: url("Images/background_photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 8% 80% 1fr;
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}
+.nav {
+    display: flex;
+    width: 98%; 
+    justify-content: space-between;
+    margin: 5px;
+}
+.categories_icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 0px;
+}
+.company_logo {
+    display: flex;
+    gap: 10px;
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+}
+.login {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 1.5em;
+}
+.body{
+    display: grid;
+    width: 98%;
+    grid-template-columns: 1fr 1fr;
+}
+.body_text {
+    display: grid;
+    font-size: 1.5em;
+    grid-template-rows: 1fr 70% 3fr;
+    margin: auto;
+   width: 300px;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+.explore {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 200px;
+    border-radius: 30px;
+    opacity: 70%;
+    font-size: 1em;
+    height: auto;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+    align-self: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 98%;
+    align-items: start;
+    margin-top: 0px;
+}
+
+
+#company_logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+}
+#explore_icon{
+    width: 30px;
+    height: 30px;
+}
+#image_one{
+    grid-column: 2;
+}
+#image_two{
+    justify-self: start;
+    grid-row: span 2;
+    align-self: center;
+    grid-column: 3;
+}
+#image_three{
+    grid-column: 2;
+}
+#image_four {
+    grid-column: 1;
+    justify-self: end;
+    grid-row: span 2;
+    align-self: center;
+}
+#login{
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    height: 20px;
+    padding: 3px;
+    border-radius: 3px;
+}
+#sign_up{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 20px;
+    padding: 3px;
+    border-radius: 3px;
+}
+#get_started{
+    border: 1px solid purple;
+}
+#demo {
+    border: 1px soild  black;
+    background-color:yellow;
+}
+
