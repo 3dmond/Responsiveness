@@ -1,6 +1,12 @@
 //styles.scss
-@import 'reset.scss';
 @import 'large_default.scss';
-@import 'medium.scss';
-@import 'small.scss';
+
+@media only screen and (max-width: 1200px) {
+    @import 'medium.scss';
+}
+
+@media only screen and (max-width: 500px)
+{
+    @import 'small.scss';
+}
 
